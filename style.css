@@ -106,11 +106,12 @@ table  {
     width: 100%;
     margin-left: 0px;
 }
-tr > *{
-    padding: 0.6rem;
-    text-align: left;
-    border-bottom: 2px solid var(--Light_Grey);
-  }
+
+.nutrition table tr { 
+    line-height: 2.5em; 
+    border-bottom: 1px solid var(--Light-Grey); 
+    margin-bottom: 5px; 
+}
 hr{
     opacity: 0.2;
 }
